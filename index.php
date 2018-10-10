@@ -4,7 +4,7 @@
 <body>
 
 <form action="process.php" method="post">
-  Gib deinen Namen ein:<input name="text" type="text">
+  Gib deinen Namen ein:<input name="name" type="text">
   <input type="submit">
 </form>
 
