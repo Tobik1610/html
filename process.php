@@ -6,7 +6,7 @@
 <?php
   $name = $_POST["name"];
   echo "Hallo, " . $name;
-  echo "sei nicht traurig :)"
+  echo " sei nicht traurig :)"
  ?>
 
 </body>
