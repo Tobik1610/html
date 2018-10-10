@@ -1,5 +1,8 @@
 <html>
-<head><title>Website</title></head>
+<head>
+  <title>Website</title>
+  <?php include "css/css.html"; ?>
+</head>
 
 <body>
 

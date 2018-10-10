@@ -9,7 +9,7 @@
   <input name="email" type="text">
   <label for="password" class="h2">Password: </label>
   <input name="password" type="text">
-  <input type="submit" title="Login">
+  <button>Login</button>
 </div>
 </body>
 
