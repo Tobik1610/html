@@ -5,7 +5,7 @@
 
 <?php
   $name = $_POST["name"];
-  echo "Hallo, " . $name " sei nicht traurig";
+  echo "Hallo, " . $name;
  ?>
 
 </body>
