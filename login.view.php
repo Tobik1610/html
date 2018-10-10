@@ -5,9 +5,11 @@
 
 <label for="login"> Anmeldung: </label>
 <div>
-  Email: <input name="email" type="text">
-  Password: <input name="password" type="text">
-  <input type="submit">
+  <label for="email">Email:</label>
+  <input name="email" type="text">
+  <label for="password">Password: </label>
+  <input name="password" type="text">
+  <input type="submit" title="Login">
 </div>
 </body>
 
