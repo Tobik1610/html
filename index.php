@@ -3,7 +3,7 @@
 
 <body>
 
-<<?php include("login.view.php"); ?>
+<?php include("login.view.php"); ?>
 
 </body>
 
