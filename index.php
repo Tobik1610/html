@@ -1,13 +1,11 @@
-<html>
-<head>
-  <title>Website</title>
-  <?php include "css/css.html"; ?>
-</head>
+<?php
+  require "header.php";
+ ?>
 
-<body>
+    <main>
 
-<?php include("login.view.php"); ?>
+    </main>
 
-</body>
-
-</html>
+<?php
+  require 'footer.php';
+ ?>
