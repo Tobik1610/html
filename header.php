@@ -5,13 +5,13 @@
     <meta name="description" content="Example of description">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-      <link rel="stylesheet" href="/css/header.css">
+      <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
 
     <header>
       <nav class="nav-header-main">
-        <a href="logo">
+        <a class="header-logo" href="index.php">
           <img src="img/logo.png" alt="logo">
         </a>
         <ul>
