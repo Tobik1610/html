@@ -12,7 +12,7 @@
     <header>
       <nav>
         <a href="index.php">
-          <img src="img/logo.png" alt="logo">
+          <img class="header-logo" src="img/logo.png" alt="logo">
         </a>
         <ul>
           <li><a href="index.php">Home</a></li>
