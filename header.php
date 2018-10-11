@@ -10,8 +10,8 @@
   <body>
 
     <header>
-      <nav>
-        <a href="#">
+      <nav class="nav-header-main">
+        <a href="logo">
           <img src="img/logo.png" alt="logo">
         </a>
         <ul>
