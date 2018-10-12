@@ -24,11 +24,11 @@
           <form action="includes/login.inc.php" method="post">
             <input class="input-login" type="text" name="mailuid" placeholder="Username/Email">
             <input class="input-login" type="password" name="pwd" placeholder="Password">
-            <button class="btn-login" type="submit" name="login-submit">Login</button>
+            <a href="includes/login.inc.php" class="btn-login">Login</a>
           </form>
           <a class="signup" href="signup.php">Signup</a>
           <form action="includes/logout.inc.php" method="post">
-            <button class="btn-login" type="submit" name="logout-submit">Logout</button>
+            <a href="includes/logout.inc.php" class="btn-login">Logout</a>
           </form>
         </div>
       </nav>
