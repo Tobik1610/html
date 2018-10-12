@@ -9,26 +9,26 @@
   </head>
   <body>
 
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="nav">
         <a href="index.php">
           <img class="header-logo" src="img/logo.png" alt="logo">
         </a>
-        <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="nav-list">
+          <li><a class="nav-item" href="index.php">Home</a></li>
+          <li><a class="nav-item" href="#">Portfolio</a></li>
+          <li><a class="nav-item" href="#">About me</a></li>
+          <li><a class="nav-item" href="#">Contact</a></li>
         </ul>
-        <div>
+        <div class="login">
           <form action="includes/login.inc.php" method="post">
-            <input type="text" name="mailuid" placeholder="Username/Email">
-            <input type="password" name="pwd" placeholder="Password">
-            <button type="submit" name="login-submit">Login</button>
+            <input class="input-login" type="text" name="mailuid" placeholder="Username/Email">
+            <input class="input-login" type="password" name="pwd" placeholder="Password">
+            <button class="btn-login" type="submit" name="login-submit">Login</button>
           </form>
-          <a href="signup.php">Signup</a>
+          <a class="signup" href="signup.php">Signup</a>
           <form action="includes/logout.inc.php" method="post">
-            <button type="submit" name="logout-submit">Logout</button>
+            <button class="btn-login" type="submit" name="logout-submit">Logout</button>
           </form>
         </div>
       </nav>
